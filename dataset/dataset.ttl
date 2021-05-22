@@ -1,0 +1,182 @@
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:1 rdf:type data:pemain;
+    data:nama "Bogdan Mladenovic";
+    data:posisi "Attacking Midfield";
+    data:age "23";
+    data:fromClub "fk rad belgrad";
+    data:toClub "gil vicente fc";
+    data:season "2019/2020";
+    data:league "primeira liga";
+   data:fee "£45.00m";
+    data:urlFoto "https://img.a.transfermarkt.technology/portrait/header/363295-1596787902.jpg?lm=1";
+    .
+data:2 rdf:type data:pemain;
+    data:nama "Thomas Partey";
+    data:posisi "Defensive Midfield";
+    data:age "27";
+    data:toClub  "Arsenal FC";
+    data:fromClub "Atletico Madrid";
+    data:season "2019/2020";
+    data:fee "£45.00m";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:3 rdf:type data:pemain;
+    data:nama "Gabriel";
+    data:posisi "Centre-Back";
+    data:age "22";
+    data:toClub  "Arsenal FC";
+    data:fromClub "LOSC Lille";
+    data:season "2019/2020";
+    data:fee "£23.40m";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:4 rdf:type data:pemain;
+    data:nama "willian";
+    data:posisi "Right Winger";
+    data:age "27";
+    data:toClub  "Arsenal FC";
+    data:fromClub "Chealse";
+    data:season "2019/2020";
+     data:fee "free";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:5 rdf:type data:pemain;
+    data:nama "Ollie Watkins";
+    data:posisi "Centre-Forward";
+    data:age "24";
+    data:toClub  "Aston villa";
+    data:fromClub "brendford";
+    data:season "2019/2020";
+     data:fee "£27.72m";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:6 rdf:type data:pemain;
+    data:nama "Bertrand Traorore";
+    data:posisi "Right Winger";
+    data:age "25";
+    data:toClub  "Aston villa";
+    data:fromClub "Olympique Lyon";
+    data:season "2019/2020";
+     data:fee "£16.56m";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:7 rdf:type data:pemain;
+    data:nama "Emiliano MartÃ­nez";
+    data:posisi "Goalkeeper";
+    data:age "28";
+    data:toClub  "Aston villa";
+    data:fromClub "arsenal";
+    data:season "2019/2020";
+     data:fee "£15.00m";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:8 rdf:type data:pemain;
+    data:nama "Matty Cash";
+    data:posisi "Right-Back";
+    data:age "23";
+    data:toClub  "Aston villa";
+    data:fromClub "Nottm Forest";
+    data:season "2019/2020";
+     data:fee "£14.18m";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:9 rdf:type data:pemain;
+    data:nama "Kai Havertz";
+    data:posisi "Attacking Midfield";
+    data:age "21";
+    data:toClub  "Chealse";
+    data:fromClub "Bay. Leverkusen";
+    data:season "2019/2020";
+     data:fee "£72.00m";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:10 rdf:type data:pemain;
+    data:nama "Timo Werner";
+    data:posisi "Centre-Forward";
+    data:age "24";
+    data:toClub  "Chealse";
+    data:fromClub "RB Leipzig";
+    data:season "2019/2020";
+     data:fee "£47.70m";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:11 rdf:type data:pemain;
+    data:nama "Ben Chilwell";
+    data:posisi "Left-Back";
+    data:age "23";
+    data:toClub  "Chealse";
+    data:fromClub "Leicester";
+    data:season "2019/2020";
+     data:fee "£45.18m";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:12 rdf:type data:pemain;
+    data:nama "Hakim Ziyech";
+    data:posisi "Right Winger";
+    data:age "27";
+    data:toClub  "Chealse";
+    data:fromClub "Ajax";
+    data:season "2019/2020";
+     data:fee "£36.00m";
+    data:league "primier League";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:13 rdf:type data:pemain;
+    data:nama "Leroy sane";
+    data:posisi "Left Winger";
+    data:age "24";
+    data:toClub  "Bayern Munich";
+    data:fromClub "Man City";
+    data:season "2019/2020";
+     data:fee "£40.50m";
+    data:league "bundesliga";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:14 rdf:type data:pemain;
+    data:nama "Leroy sane";
+    data:posisi "Left Winger";
+    data:age "24";
+    data:toClub  "Bayern Munich";
+    data:fromClub "Man City";
+    data:season "2019/2020";
+     data:fee "£40.50m";
+    data:league "bundesliga";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+data:15 rdf:type data:pemain;
+    data:nama "Marc Roca";
+    data:posisi "Defensive Midfield";
+    data:age "23";
+    data:toClub  "Bayern Munich";
+    data:fromClub "Espanyol";
+    data:season "2019/2020";
+     data:fee "£8.10m";
+    data:league "bundesliga";
+   
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .

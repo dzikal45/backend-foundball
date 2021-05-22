@@ -1,0 +1,27 @@
+{
+  "name": "foundball",
+  "version": "1.0.0",
+  "description": "projek semweb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzikal45/backend-foundball.git"
+  },
+  "author": "dzikal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzikal45/backend-foundball/issues"
+  },
+  "homepage": "https://github.com/dzikal45/backend-foundball#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "course": "0.0.1",
+    "express": "^4.17.1",
+    "nodemod": "^2.8.3",
+    "qs": "^6.10.1"
+  }
+}
