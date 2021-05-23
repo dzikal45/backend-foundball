@@ -1,5 +1,7 @@
 module.exports = fn = data => {
     return {
+     
+        "id": data.id ? data.id.value : '',
         "nama": data.nama ? data.nama.value : '',
         "posisi": data.posisi ? data.posisi.value : '',
         "age": data.age ? data.age.value : '',

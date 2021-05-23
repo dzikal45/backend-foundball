@@ -13,9 +13,10 @@ exports.getPemain = async(param)=>{
     const queryData = {
     query: `PREFIX data:<http://example.com/>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-    SELECT ?nama ?posisi ?age ?fromClub ?toClub ?season ?league ?fee ?urlFoto
+    SELECT ?id ?nama ?posisi ?age ?fromClub ?toClub ?season ?league ?fee ?urlFoto
     WHERE{
         ?sub rdf:type data:pemain
+        OPTIONAL {?sub data:id ?id.}
         OPTIONAL {?sub data:nama ?nama.}
         OPTIONAL {?sub data:posisi ?posisi.}
         OPTIONAL {?sub data:age ?age.}
@@ -26,6 +27,7 @@ exports.getPemain = async(param)=>{
         OPTIONAL {?sub data:fee ?fee.}
         OPTIONAL {?sub data:urlFoto ?urlFoto.}
         
+        FILTER regex(?id, "${param.id ? param.id : ''}", "i")
         FILTER regex(?nama, "${param.nama ? param.nama : ''}", "i")
         FILTER regex(?posisi, "${param.posisi ? param.posisi : ''}", "i")
         FILTER regex(?league, "${param.league ? param.league : ''}", "i")
